@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>TrendyMusic</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="img/m_icon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Ninestars - v4.0.1
+  * Template URL: https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="index.html"><span>TrendyMusic</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+       
+          <li><a class="nav-link scrollto" href="index.html">Libary</a></li>
+      
+
+          <li><a class="getstarted scrollto" href="#about">Now Playing</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row gy-4">
+    
+
+        <!-- player-->
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <div class="col=lg-6 d-flex flex-column justify-content-center" style="">
+            <img src=""/>
+
+
+            <div class="col-lg-6s col-md-6 portfolio-item filter-app center" style="border: 3px solid red; border-radius: 20px;">
+       
+                <img src="img/maara.jpg" class="img-fluid align-items-center" alt="album cover"  style="border-radius: 20px;">
+              
+               
+            </div>
+          </div>
+
+
+<div class="col-lg-12"> 
+
+          <div class=" col-lg-6 center">
+           
+            
+
+            <!-- <a href="" class="btn-get-started ">Play</a>
+            <a href="" class="btn-get-started ">Stop</a> -->
+
+            <a href="#" class=" fa fa-heart"></a>
+            <a href="#" class=" fa fa-backward"></a>
+            <a href="" class="btn-get-started ">Play</a>
+            <a href="" class="btn-get-started ">Stop</a>
+            <a href="#" class=" fa fa-forward"></a>
+            <a href="#" class=" fa fa-share"></a>
+          
+          </div>
+        </div>
+        </div>
+
+
+        <div class="col-lg-6 order-1 order-lg-2 hero-img"></div>
+    
+         
+          <!-- <div class="col-lg-12 hp">
+           <p style="padding-left: 10px; font-size: 20px;">Play Now</p> 
+          </div>
+         <div class="col-lg-12 hpl"> -->
+
+
+           <!-- <div class="col-lg-12 ls2" style="height:75px;">
+          <h4 ><strong>Vello Silli </strong></h4>
+          <p> Soorarai pottu, G.V.Prakashkumar</p>
+        </div> -->
+   
+       
+        <script>
+          var audio = new Audio('https://a.clyp.it/dumevvze.mp3');
+audio.volume = 0.1;
+audio.play();
+
+$('.trigger').click(function() {
+  if (audio.paused == false) {
+      audio.pause();
+      $('.fa-play').show();
+      $('.fa-pause').hide();
+      $('.music-card').removeClass('playing');
+  } else {
+      audio.play();
+      $('.fa-pause').show();
+      $('.fa-play').hide();
+      $('.music-card').addClass('playing');
+  }
+});
+
+        </script>
+<div class='music-card playing' style=" margin-top: 120px;">
+  
+  <div class='image'>
+    <img src="img/maara.jpg" style=" object-fit: contain;width: 100px; height: 100px;">
+  </div>
+  
+  <div class='wave'></div>
+  <div class='wave'></div>
+  <div class='wave'></div>
+  
+  <div class='info'>
+    <h2 class='title'>Vello Silli</h2>
+    <div class='artist'>Soorarai pottu, G.V.Prakashkumar</div>
+  </div>
+  
+  <i class="fa fa-pause trigger" aria-hidden="true"></i>
+  <i class="fa fa-play trigger" aria-hidden="true"></i>
+</div>
+
+
+         </div>
+          
+        </div>
+      </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+
+
+    
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
